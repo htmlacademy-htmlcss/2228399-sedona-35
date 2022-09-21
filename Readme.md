@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Albina Berg](https://up.htmlacademy.ru/htmlcss/35/user/2228399).
-* Наставник: `Неизвестно`.
+* Наставник: `Сергей Остаповец`(https://htmlacademy.ru/profile/seraphim).
 
 ---
 
