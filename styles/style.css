@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff;
+}
+
+.navigation-user-button {
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+}
+
+.main-index {
+  color: black;
+  background-color: #ffffff;
+  background-image: url(../images/intro-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.text-sedona {
+  font-family: inherit;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.text-advantage {
+  font-family: inherit;
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.advantage-title {
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  background-color: #83B3D312;
+}
+
+.advantage-description {
+  font-family:inherit;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #83B3D312;
+}
+
+.first {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.fifth {
+  color: #ffffff;
+  background-color: #82B3D3; 
+}
+
+.third {
+  background-color: #83B3D320;
+}
+
+.fourth {
+  background-color: #ffffff;
+}
+
+.interaction-question {
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.interaction-text {
+  font-family: inherit;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.interaction-button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.subscribe {
+  background-image: url(../images/subscribe-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: black;
+}
+
+.subscribe-title {
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.subscribe-text {
+  font-family: inherit;
+  font-size: 22px ;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  border-style: none;
+}
+
+.footer-phone {
+  font-family: inherit;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
