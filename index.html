@@ -9,10 +9,10 @@
 
 <body>
   <header class="page-header">
-    <a class="navigation-logo">
+    <nav class="navigation">
+      <a class="navigation-logo">
       <img class="page-header-logo" src="images/sedona.logo.svg" alt="Логотип сайта Седона" width="140" height="70">
     </a>
-    <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link">Главная</a>
@@ -39,18 +39,19 @@
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#">
-          <span class="navigation-user-button">Хочу сюда!</span>
+          <p class="navigation-user-button">Хочу сюда!</p>
         </a>
       </li>
     </ul>
     </nav>
   </header>
 
-
-  <main class="main-index">
+  <div class="page-container">
+  <main class="main-container main-index">
     <h1 class="visually-hidden">Сайт Седона</h1>
     <section class="intro">
       <img class="intro-welcome" src="images/welcome.svg" alt="Добро пожаловать в Седону" width="458" height="352">
+      <img class="intro-decoration" src="images/horizontal-decoration.svg" alt="" width="1200" height="54">
     </section>
     <section class="intro-text">
       <p class="text-sedona">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
@@ -87,6 +88,8 @@
           <h3 class="advantage-title first">Там есть мост дьявола</h3>
           <p class="advantage-description first">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         </li>
+      </ul>
+      <ul class="serviice">
         <li class="advantage-item">
           <img class="advantage-icon-accommodation" src="images/advantage/icon-house.svg" alt="Иконка дом" width="75" height="72">
           <h3 class="advantage-title third">Жильё</h3>
@@ -102,7 +105,7 @@
           <h3 class="advantage-title third">Сувениры</h3>
           <p class="advantage-description third">Не только китайского, но и настоящего местного производства!</p>
         </li>
-      </ul>
+      </ul>  
     </section>
 
     <section class="interaction">
@@ -119,13 +122,15 @@
       <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
         <label class="form-label" for="user-email"></label>
         <input class="field" type="email" id="user-email" name="user-email" plaseholder="Ваш email">
-        <button class="subscribe-button" type="button">Подписаться</button>
+        <button class="subscribe-button" type="submit">Подписаться</button>
       </form>
     </section>
   </main>
+  </div>
   
 
   <footer>
+    <div class="footer-wrapper">
     <section class="social">
       <h2 class="visually-hidden">Социальные сети</h2>
       <ul class="footer-social-list">
@@ -151,6 +156,7 @@
       <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
       <img class="social-logo-academy" src="images/htmlacademy.logo.svg" alt="Логоти htmlacademy" width="115" height="33">
     </section>
+    </div>
   </footer>
 </body>
 </html>
