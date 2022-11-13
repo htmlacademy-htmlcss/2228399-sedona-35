@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src:url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: black;
+  background-color: #ffffff;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  margin-left:70px;
+  margin-right: 28px;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 500px ;
+}
+
+.navigation-user {
+  list-style: none;
+  width: 268px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #ffffff;
+}
+
+.navigation-user-button {
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+}
+
+.intro-welcome {
+  display: block;
+  margin: 0 auto;
+}
+
+.text-sedona {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 620px;
+}
+
+.text-advantage {
+
+}
+
+.intro-text {
+  background-color: #ffffff;
+  width: 1200px;
+  height: 282px;
+}
+
+.main-index {
+  color: black;
+  background-color: #ffffff;
+  background-image: url(../images/intro-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.text-sedona {
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.text-advantage {
+  text-align: center;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 651px;
+}
+
+.advantage-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+  background-color: #83B3D312;
+}
+
+.advantage-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+  background-color: #83B3D312;
+}
+
+.first {
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.fifth {
+  color: #ffffff;
+  background-color: #82B3D3; 
+}
+
+.third {
+  background-color: #83B3D320;
+}
+
+.fourth {
+  background-color: #ffffff;
+}
+
+.interaction-question {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.interaction-text {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.interaction-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+}
+
+.subscribe {
+  background-image: url(../images/subscribe-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: black;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.subscribe-text {
+  font-size: 22px ;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-button {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+  border-style: none;
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  list-style: none;
+  width: 142px;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  width: 331px; 
+}
