@@ -20,8 +20,6 @@ html {
 
 body {
   margin: 0;
-  display: flex;
-  flex-direction: column;
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -90,10 +88,6 @@ body {
   width: 620px;
 }
 
-.text-advantage {
-
-}
-
 .intro-text {
   background-color: #ffffff;
   width: 1200px;
@@ -129,6 +123,23 @@ body {
   width: 651px;
 }
 
+.advantage-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  width: 1200px;
+}
+
+.advantage-item {
+  width: 400px;
+  height: 384px;
+}
+
+.advantage-item-full {
+  width: 800PX;
+}
+
+
 .advantage-title {
   font-size: 24px;
   line-height: 28px;
@@ -146,6 +157,26 @@ body {
   background-color: #83B3D312;
 }
 
+.service-list {
+  display: flex;
+  margin: 0;
+}
+
+.service-item {
+  align-items: center;
+  width: 400px;
+  height: 384px;
+}
+
+.service-description {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+
+/*
 .first {
   color: #ffffff;
   background-color: #82B3D3;
@@ -162,6 +193,12 @@ body {
 
 .fourth {
   background-color: #ffffff;
+}
+*/
+
+.interaction {
+  width: 1200px;
+  height: 406px;
 }
 
 .interaction-question {
@@ -183,6 +220,8 @@ body {
 }
 
 .interaction-button {
+  display: flex;
+  justify-content: center;
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -198,6 +237,8 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: black;
+  width: 1200px;
+  height: 415px;
 }
 
 .subscribe-title {
