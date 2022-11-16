@@ -27,6 +27,17 @@ body {
   background-color: #ffffff;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+}
+
 .main-container {
   flex-grow: 1;
 }
@@ -43,8 +54,8 @@ body {
 }
 
 .navigation-logo {
-  margin-left:70px;
-  margin-right: 28px;
+  margin-left: 70px;
+
 }
 
 .navigation-list {
@@ -52,12 +63,15 @@ body {
   margin: 0;
   padding: 0;
   width: 500px ;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-user {
   list-style: none;
   width: 268px;
   margin-left: auto;
+  display: flex;
 }
 
 .navigation-link {
@@ -68,6 +82,8 @@ body {
   text-decoration: none;
   color: black;
   background-color: #ffffff;
+  display: block;
+  padding: 16px 20px;
 }
 
 .navigation-user-button {
@@ -91,7 +107,6 @@ body {
 .intro-text {
   background-color: #ffffff;
   width: 1200px;
-  height: 282px;
 }
 
 .main-index {
@@ -127,16 +142,16 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  list-style: none;
   width: 1200px;
 }
 
 .advantage-item {
   width: 400px;
-  height: 384px;
 }
 
 .advantage-item-full {
-  width: 800PX;
+  width: 100%;
 }
 
 
@@ -165,7 +180,7 @@ body {
 .service-item {
   align-items: center;
   width: 400px;
-  height: 384px;
+  list-style: none;
 }
 
 .service-description {
@@ -174,7 +189,6 @@ body {
   font-weight: 400;
   color: #333333;
 }
-
 
 /*
 .first {
@@ -198,7 +212,6 @@ body {
 
 .interaction {
   width: 1200px;
-  height: 406px;
 }
 
 .interaction-question {
@@ -277,6 +290,7 @@ body {
 .footer-social-list {
   list-style: none;
   width: 142px;
+  display: flex;
 }
 
 .footer-phone {
